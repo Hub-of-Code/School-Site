@@ -1,0 +1,615 @@
+*
+{
+    padding: 0px;
+    margin: 0.0px;
+}
+
+/*for the header it starts here*/
+.sticky{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-bottom: 10px;
+	color: black;
+    
+}
+.sticky + .content{
+    padding-top: 102px;
+	color: black;
+}
+
+
+/*second slider*/
+
+nav
+{
+	padding-bottom: -260px;
+	padding-right:20px;
+}
+
+nav ul
+{
+	list-style-type: none;
+}
+
+nav ul li
+{
+	display: inline-block;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+	color: maroon;
+	font-family: dosis;
+	font-size: 20px;
+	font-weight: 400;
+	padding-left: -90px;
+	opacity: .8;
+}
+
+nav ul li a:hover
+{
+	color: black;
+	transition: 2s;
+	background: orange;
+	border-radius: 8px;
+	width: 200px;
+}
+
+nav ul li a.active
+{
+	background: blue;
+	border-radius: 5px;
+}
+
+@keyframes slider{
+	0%{
+		left:0;
+	}
+	20%{
+		left: 0;
+	}
+	25%{
+		left: -100%;
+	}
+	45%{
+		left: -100%;
+	}
+	50%{
+		left: -200%;
+	}
+	75%{
+		left: -200%;
+	}
+	95%{
+		left: -300%;
+	}
+	100%{
+		left: -100%;
+	}
+}
+
+#slider
+{
+	overflow:hidden;
+	height: 505px;
+	width: 100%;
+
+}
+
+#slider figure img
+{
+	width: 20%;
+	float: left;
+
+}
+
+#slider figure
+{
+	position:relative;
+	width: 500%;
+	margin: 0;
+	left: 0;
+	animation:20s slider infinite;
+}
+
+/*second slider ends here*/
+
+.dropdown
+{
+    position: relative;
+    display: inline-block;
+}
+
+.dropcont
+{
+    display:none;
+    position: absolute;
+    background-color: burlywood;
+    box-shadow: 0px 8px 14px 0px rgba(0,0,0,0,2);
+    z-index: 1;
+    min-width: 160px;
+}
+
+
+.dropcont a
+{
+    padding: 10px 10px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
+.dropcont a:hover
+{
+    background-color: blanchedalmond;
+}
+
+.dropdown:hover .dropcont
+{
+    display: block;
+}
+
+.dropdown:hover .dropbtn
+{
+    background-color:black;
+    color: black;
+}
+
+
+/*from here is for the main body*/
+
+/*about us body*/
+
+.history
+{
+    font-size: 22px;
+    color: blue;
+    width:40%;
+    float:left;
+    padding: 20px;
+    border: snow thick solid;
+    box-shadow: 0 4px 8px 0 maroon;
+    height: 250px;
+    margin-bottom: 50px;
+    background-color:snow;
+    margin-right: 100px;
+    
+}
+   .aside_history
+{
+    float: right;
+    height: 500px;
+    width: 40%;
+    margin-left: 100px;
+}
+.aside_history:hover
+{
+    filter: grayscale(80%);
+/*    transform: rotateY(180deg);*/
+} 
+
+/*about us second body starts here*/
+
+.product
+{
+    height: 350px;
+    background: white;
+    padding-left: 20px;
+}
+
+.history
+{
+	margin-left: 50px
+}
+
+.bottom
+{
+    color: black;
+    font-family:Algerian;
+    font-size: 15px;
+    text-align:left;
+    padding: 2px;  
+}
+
+.one
+{
+    float: left;
+    background:#eee ;
+    width: 30%;
+    height: 400px;
+    margin-left: 30px;
+	margin-bottom:20px;
+}
+.two
+{ 
+    float: left;
+    width: 30%;
+   	height: 400px;
+    background: #eee;
+    margin-left: 30px;
+	margin-bottom:20px;
+}
+.three
+{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: #eee;
+    margin-left: 30px;
+	margin-bottom:20px;
+}
+.four
+{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: #eee;
+    margin-left: 30px;
+	margin-bottom:60px;
+}
+
+.five
+{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: #eee;
+    margin-left: 30px;
+	margin-bottom:60px;
+}
+
+.six
+{
+    float: left;
+    width: 30%;
+    height: 400px;
+    background: #eee;
+    margin-left: 30px;
+	margin-bottom:60px;
+}
+
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover,.six:hover
+{
+transform: scale(1.1);
+filter: grayscale(20%);
+box-shadow: 2px 3px 0 rgba(0,0,0,0.9);
+-ms-transform:scale(1.1);/*IE 9*/
+-webkit-transform:scale(1.1);/*safari 3-8*/
+-moz-transform:scale(1.1);/* firefox */
+}
+
+.top
+{
+    height: 40%;
+    width: 100%;
+    background: crimson;
+}
+
+
+/*about us second body ends here*/
+
+/*about us body ends here*/
+
+/*from here the main body ends */
+
+/*admission body starts here*/
+.Admin
+{
+	height: 50%;
+	width: 80%;
+	clear: both;
+	font-size: 20px;
+	margin-bottom: 70px;
+	background-color: antiquewhite;
+	margin-left:10%;
+	margin
+}
+
+.Admin1
+{
+	height: 87%;
+	width: 80%;
+	clear: both;
+	font-size: 20px;
+	margin-bottom: 70px;
+	background-color: antiquewhite;
+	margin-left:10%;
+	margin
+}
+
+.feel
+{
+	margin-left: 150px;
+}
+
+.feel1
+{
+	margin-left: 150px;
+}
+
+.write
+{
+	margin-left: 70px;
+}
+
+.write1
+{
+	margin-left: 100px;
+}
+
+.list
+{
+	
+}
+
+/*admission body ends here*/
+
+/*full fotter*/
+
+.foot_left
+{
+	height: 290px;
+	width: 32%;
+	clear: both;
+}
+
+.foot_mid
+{
+	float: left;
+	height: 290px;
+	width: 32%;
+	margin-top: -290px;
+	margin-left: 34%;
+
+}
+
+.foot_mid ul
+{
+	list-style-type: none;
+}
+
+.foot_mid ul li 
+{
+	padding-left: 10px;
+	margin-bottom: 12px;
+	border-bottom: 1px dotted #333;
+}
+
+.foot_mid ul li a
+{
+	text-decoration: none;
+	font-family: dosis;
+	font-size: 16px;
+	color: #333;
+}
+
+.foot_mid ul li a:hover
+{
+	color: #8B8B8B;
+	padding-left: 10px;
+	transition: 1s;
+}
+
+.foot_right
+{
+	float: right;
+	height: 290px;
+	width: 32%;	
+	margin-top: -290px;
+}
+
+/*
+footer
+{
+	height: 50px;
+	background: #8B8B8B;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-family: dosis;
+	font-size: 15px;
+	color: #333;
+}
+*/
+
+.small
+{
+	width:65px;
+	height: 70px;
+	margin-bottom: 5px;
+}
+
+/*full footer*/
+
+
+/*from here is the style for the fotter*/
+.fotter
+{
+    height: 50px;
+    background: black;
+}
+
+/*    margin-top: 400px;*/
+
+
+.fotter .left
+{
+    font-family: Algerian;
+    padding: 20px;
+    color: green;
+    float: left;
+}
+
+.fotter .right
+{
+    float: right;
+}
+
+
+/*and it ends here*/
+
+
+/*the main contact us page for forms starts here*/
+.contain
+{
+    height: 622px;
+    padding-top: 60px;
+}
+
+.form
+{
+    width: 75%;
+    height: 600px;
+    margin: 20px auto;
+    border-bottom-color: black;
+	border-bottom-style: double;
+	border-top-color: black;
+	border-top-style: double;
+	border-left-color: black;
+	border-left-style: solid;
+	border-right-color: black;
+	border-right-style: solid;
+/*	background:url(../img/science/real/11.PNG) */
+}
+
+.sm
+{
+    margin-bottom: 15px;
+}
+.body
+{
+	color:
+}
+
+form {padding: 20px;}
+
+.sm
+{
+    margin-bottom: 15px;
+}
+
+.txt
+{
+    width: 49%;
+    height: 35px;
+}
+
+.txtx
+{
+    width: 98.6%;
+    height: 35px;
+}
+
+.msg
+{
+    height: 200px;
+    width: 99.6%;
+    font-family: fantasy;
+    font-size: 14px;
+}
+
+.btn
+{
+    background: lightgreen;
+    color: #fff;
+    height: 40px;
+    width: 190px;
+    border: 2px solidgreen;
+    font-weight: bold;
+    font-family: cursive;
+}
+.btn1
+{
+    background-color: indianred;
+    color: #fff;
+    height: 40px;
+    width: 190px;
+    border: 2px solidred;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.btn:hover
+{
+    background: white;
+    border: 2px solid green;
+    transition: 2s;
+    color: grey;
+}
+
+.btn1:hover
+{
+    background: white;
+    color: red;
+    border: 2px solid red;
+    transition: 2s;
+}
+/*FAQ starts here*/
+.form1
+{
+    width: 70%;
+    height: 400px;
+    margin: 20px auto;
+    border-bottom-color: black;
+	border-bottom-style: double;
+	border-top-color: black;
+	border-top-style:groove;
+	border-left-color: black;
+	border-left-style:groove;
+	border-right-color: black;
+	border-right-style: groove;
+	margin-top: 60px;
+}
+.faq1
+{
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.faq
+{
+	margin-left:  45px;
+}
+
+.btn2
+{
+	background-color: blue;
+    color: black;
+    height: 40px;
+    width: 190px;
+    border: 3px solidgreen;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.btn2: hover
+{
+    background: white;
+    color: red;
+    border: 2px solid red;
+    transition: 2s;
+}
+/*FAQ ends here*/
+
+
+/*it ends here for contact us page*/
+
+
+/*for other links*/
+.link1: link
+{
+color:brown; 
+font-family: Bahnschrift Light;
+background:antiquewhite;
+margin-bottom: 30px;
+}
+
+.link1: visted
+{
+	color: firebrick;
+	font-family:Algerian;
+	background: grey;
+}
+/*for other links end*/
